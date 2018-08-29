@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="44px" viewBox="0 0 43 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="-6.13209973e-07" width="43.9342218" height="29.1856382"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-14-5" transform="translate(-594.000000, -1320.000000)">
+            <g id="Product-Snapshot" transform="translate(155.000000, 1057.000000)">
+                <g id="Snapshot-2" transform="translate(380.000000, 264.000000)">
+                    <g id="Group-15" transform="translate(59.000000, 0.000000)">
+                        <g id="measurement-graphic-1.5">
+                            <g id="bar-graphs" transform="translate(1.661968, 13.455161)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="mask"></g>
+                                <rect id="Rectangle-12" stroke="#071D49" stroke-width="1.5" mask="url(#mask-2)" x="11.6403243" y="11.2495153" width="6.14052575" height="19.3853017" rx="1.5"></rect>
+                                <rect id="Rectangle-12-Copy-4" stroke="#071D49" stroke-width="1.5" mask="url(#mask-2)" x="1.81679118" y="21.8589673" width="6.14052575" height="8.5948651" rx="1.5"></rect>
+                                <rect id="Rectangle-12-Copy" stroke="#071D49" stroke-width="1.5" mask="url(#mask-2)" x="21.4638574" y="14.1430022" width="6.14052575" height="16.7607389" rx="1.5"></rect>
+                                <rect id="Rectangle-12-Copy-2" stroke="#071D49" stroke-width="1.5" mask="url(#mask-2)" x="31.2873905" y="2.56905457" width="6.14052575" height="27.6856382" rx="1.5"></rect>
+                            </g>
+                            <path d="M0.75248908,42.2473927 L41.79049,42.2473927" id="Path-17" stroke="#071D49" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M4.85128803,21.8015393 C4.85128803,21.8015393 15.0993551,11.7040395 15.4763552,11.7040395 C15.8533553,11.7040395 25.091654,14.1846482 25.091654,14.1846482 L39.1567122,0.693989533" id="Path-6" stroke="#071D49" stroke-width="1.5" stroke-linecap="round"></path>
+                            <polyline id="Path-18" stroke="#071D49" stroke-width="1.5" stroke-linecap="round" transform="translate(37.724150, 2.412601) rotate(-10.000000) translate(-37.724150, -2.412601) " points="35.8543249 0.292105329 39.5939758 0.95075251 38.9615885 4.53309694"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="277px" height="82px" viewBox="0 0 277 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="106.988664%" y1="50%" x2="40.86711%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#071D49" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-14-4" transform="translate(-792.000000, -4089.000000)">
+            <g id="ARTICLE-LENGTH" transform="translate(248.000000, 4045.000000)">
+                <g id="Group-7" transform="translate(543.000000, 39.000000)">
+                    <g id="Example-/-Article-Length">
+                        <g id="Group-3" transform="translate(4.000000, 0.000000)">
+                            <text id="The-Problem-with-Usi" fill="url(#linearGradient-1)" font-family=".SFNSDisplay, .SF NS Display" font-size="26" font-weight="normal" line-spacing="31">
+                                <tspan x="0" y="25">The Problem with Using </tspan>
+                                <tspan x="0" y="56">Beacons</tspan>
+                            </text>
+                            <path d="M0,62 L29,62" id="Line-Copy-3" stroke="#C8102E" stroke-width="2" stroke-linecap="square"></path>
+                        </g>
+                        <text id="29px" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#C8102E">
+                            <tspan x="0.588" y="84">29px</tspan>
+                        </text>
+                        <text id="2px-stroke" opacity="0.5" font-family="ProximaNova-Regular, Proxima Nova" font-size="16" font-weight="normal" fill="#071D49">
+                            <tspan x="46.848" y="66">2px stroke</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

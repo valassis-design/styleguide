@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="39px" viewBox="0 0 22 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>shopping bag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-14-5" transform="translate(-232.000000, -2579.000000)" stroke="#071D49">
+            <g id="Product-Page-icons" transform="translate(153.000000, 2269.000000)">
+                <g id="shopping-bag" transform="translate(79.000000, 311.000000)">
+                    <path d="M2.09046115,8.80005082 L19,8.80005082 L21.2528321,35.4121278 C21.2995389,35.963863 20.8868528,36.4001893 20.3413204,36.3869387 L1.68162879,35.9337091 C1.13150794,35.920347 0.70875963,35.4615977 0.737214702,34.9125238 L2.09046115,8.80005082 Z" id="Path-2" stroke-width="1.5"></path>
+                    <polyline id="Path-3" points="1.06787109 35.4194336 10.9169922 25.5864258 21.2011719 35.9365234"></polyline>
+                    <path d="M11.1381836,8.70849609 L11.1381836,26.254688" id="Path-4"></path>
+                    <path d="M6.63623047,8.8046875 C6.63623047,8.8046875 6.515625,7.57550578 6.63623047,5.24209859 C6.75683594,2.90869141 7.79589844,0.342773438 11.1303711,0.342773438 C14.4648438,0.342773438 15.309082,3.85351562 15.309082,4.50341797 C15.309082,5.15332031 15.3310547,8.98828125 15.3310547,8.98828125" id="Path-5" stroke-width="1.5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

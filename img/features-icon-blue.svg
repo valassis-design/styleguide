@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="36px" viewBox="0 0 51 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>features icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="6-14-5" transform="translate(-439.000000, -1787.000000)">
+            <g id="Example-2" transform="translate(153.000000, 1632.000000)">
+                <g id="icons" transform="translate(0.000000, 149.000000)">
+                    <g id="features-icon" transform="translate(287.000000, 7.000000)">
+                        <g id="bottom" transform="translate(0.000000, 19.000000)">
+                            <rect id="rectangle" stroke="#0078C0" stroke-width="1.5" x="0.0696961038" y="0.08203125" width="37" height="15" rx="2"></rect>
+                            <circle id="left-dot" fill="#0078C0" cx="6.25" cy="7.49631016" r="1.25"></circle>
+                            <circle id="middle-dot" fill="#0078C0" cx="11.75" cy="7.49631016" r="1.25"></circle>
+                            <circle id="right-dot" fill="#0078C0" cx="17.25" cy="7.49631016" r="1.25"></circle>
+                        </g>
+                        <g id="top">
+                            <rect id="rectangle-copy" stroke="#0078C0" stroke-width="1.5" x="0.0696961038" y="0.08203125" width="37" height="15" rx="2"></rect>
+                            <circle id="left-dot-copy" fill="#0078C0" cx="6.25" cy="7.49631016" r="1.25"></circle>
+                            <circle id="middle-dot-copy" fill="#0078C0" cx="11.75" cy="7.49631016" r="1.25"></circle>
+                            <circle id="right-dot-copy" fill="#0078C0" cx="17.25" cy="7.49631016" r="1.25"></circle>
+                        </g>
+                        <g id="magnifying-glass-copy" transform="translate(21.000000, 7.000000)" stroke="#0078C0">
+                            <circle id="Oval-9" stroke-width="1.5" fill="#F3F5F7" cx="10.8" cy="10.8" r="10.8"></circle>
+                            <path d="M19.3391827,18.8305668 L26.975936,26.46732" id="Path-4" stroke-width="3" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="274px" height="317px" viewBox="0 0 274 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-21.5" y="21.5" width="317" height="274"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-14-4" transform="translate(-728.000000, -1040.000000)">
+            <g id="DEGREE-OF-ANGLE" transform="translate(248.000000, 853.000000)">
+                <g id="Group-5" transform="translate(480.000000, 187.000000)">
+                    <g id="Group-6">
+                        <g id="portrait">
+                            <g id="Rectangle-8-Copy-2">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <rect stroke="#979797" x="-21" y="22" width="316" height="273"></rect>
+                                <rect fill="#C8102E" mask="url(#mask-2)" transform="translate(2.981344, 142.137680) scale(-1, 1) rotate(75.000000) translate(-2.981344, -142.137680) " x="-181.518656" y="26.1376796" width="369" height="232"></rect>
+                            </g>
+                            <g id="Degree-Copy" transform="translate(109.000000, 243.000000)">
+                                <text id="75°" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" line-spacing="28" fill="#071D49">
+                                    <tspan x="16.945" y="50">75°</tspan>
+                                </text>
+                                <g id="arrow" transform="translate(7.000000, 0.000000)" stroke="#979797" stroke-linecap="square">
+                                    <path d="M3,6.05932693 C3,6.05932693 33.4355103,-7.79783678 57.7125783,10.5382601 C81.9896463,28.8743569 72.6546675,59.297961 72.6546675,59.297961" id="Line"></path>
+                                    <polyline id="Line" transform="translate(4.196916, 5.686549) rotate(-113.000000) translate(-4.196916, -5.686549) " points="-0.137861307 8.22202653 4.19691563 3.15107096 8.53169256 8.22202653"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

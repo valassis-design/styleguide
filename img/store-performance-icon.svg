@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="30px" viewBox="0 0 44 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>store perf</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6-14-5" transform="translate(-602.000000, -2395.000000)" stroke="#071D49" stroke-width="1.5">
+            <g id="Product-Page-icons" transform="translate(153.000000, 2269.000000)">
+                <g id="store-perf" transform="translate(444.000000, 117.000000)">
+                    <polyline id="Rectangle-path-Copy-5" transform="translate(28.331945, 26.907748) rotate(27.000000) translate(-28.331945, -26.907748) " points="9.0091306 24.1760365 42.2712256 12.4488365 47.9560286 29.6394592 15.0314876 41.3666593 8.7078609 23.5085806"></polyline>
+                    <polygon id="Rectangle-path-Copy-6" fill="#FFFFFF" transform="translate(24.833861, 21.879869) rotate(27.000000) translate(-24.833861, -21.879869) " points="5.36041178 19.1481577 38.6225068 7.42095759 44.3073098 24.6115804 11.3827688 36.3387804"></polygon>
+                    <ellipse id="Oval-7-Copy-3" fill="#EEF4FA" cx="25.0008893" cy="22.2051576" rx="3.99553067" ry="4.00420874"></ellipse>
+                    <path d="M33.0539355,22.9331955 L35.596546,23.2972145" id="Line" fill="#EEF4FA"></path>
+                    <path d="M14.1659724,20.0210437 L16.7085828,20.3850627" id="Line-Copy-4" fill="#EEF4FA"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
