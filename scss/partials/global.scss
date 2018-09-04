@@ -1,0 +1,106 @@
+html {
+    font-family: 	"proxima-nova", sans-serif;
+    letter-spacing:.2px;
+        color: #121C4F;
+}
+
+nav {
+    box-shadow: 0 1px 8px 0 rgba(18,28,79,0.08);
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #121C4F;
+    font-weight:300;
+    font-family: "proxima-nova", sans-serif;
+    a {
+        color: #031B92;
+    }
+}
+
+h1 {
+    font-family: "din-2014-narrow", sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "din-2014-narrow", sans-serif;
+    font-size: 35px;
+    color:#121C4F;
+}
+
+h3 {
+    color: #031B92;
+    font-family: "din-2014-narrow", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.88px;
+    line-height: 43px;
+}
+
+h4 {
+    font-weight: 500;
+    color: #121C4F;
+    font-size: 16px;
+    margin: 4vh 0 1vh;
+}
+
+h5 {
+    font-size:20px;
+    font-weight:500;
+    font-family: 	"proxima-nova", sans-serif;
+}
+
+/* Page Nav */
+
+.page-nav {
+        padding: 1vh 0 5vh;
+        display: block;
+    p {
+        color: #121C4F;
+        font-family: "din-2014-narrow", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:2.84px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 31px;
+        margin: 0px 0 5px;
+    }
+    h5 {
+        color: #FF4141;
+        font-size: 22px;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 300;
+        margin-top: 0px;
+    }
+    .previous .icon {
+        position: relative;
+        margin-left: -30px;
+        top: 67px;
+        color: #FF4141;
+    }
+    .next .icon {
+        position: relative;
+        margin-right: -30px;
+        top: 67px;
+        color: #FF4141;
+    }
+    a:hover h5 {
+        color: #071D49 !important;
+    }
+    a:hover i {
+        color: #071D49 !important;
+    }
+    .next:hover {
+        color: #1234dc !important;
+    }
+}
+
+
+
+
+
+
+

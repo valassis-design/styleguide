@@ -1,0 +1,915 @@
+html {
+    font-family: 'proximanova', sans-serif;
+    letter-spacing:.2px;
+        color: #071D49;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #071D49 !important;
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    color:#071D49;
+}
+
+h3 {
+    color: #071D49;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+h4 {
+    font-weight: 500;
+    color: #071D49;
+    font-size: 16px;
+    margin: 4vh 0 1vh;
+}
+
+h5 {
+    font-size:20px;
+    font-weight:500;
+    font-family: 'proximanova', sans-serif;
+}
+
+.subtext {
+    font-size:18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.product-page .subtext {
+    font-size:18px;
+    font-family: 'proximanova', sans-serif !important;
+}
+.subtext span {
+    font-size:75%;
+    opacity:0.7;
+}
+
+
+.logo .section h4 {
+    margin: 4vh 0 4vh;
+}
+
+
+
+
+
+strong {
+    font-weight: 600;
+}
+
+
+
+.goodBad img {
+    margin-bottom:-1px;
+}
+
+.bad {
+    color: #C8102E;
+    font-size: 18px;
+    font-weight: 500;
+    margin: -15px 5px 0px;
+        font-family: 'Titillium Web', sans-serif;
+}
+
+.good {
+    color: #00A894;
+    font-size: 18px;
+    font-weight: 500;
+    margin: -15px 5px 0px;
+        font-family: 'Titillium Web', sans-serif;
+}
+
+/* Nav */
+
+nav ul a {
+    color: #071D49;
+    font-size: 16px;
+    font-family: 'proximanova', sans-serif;
+    padding: 0px 1vw 0px 1vw !important;
+}
+
+nav ul a.active {
+    color: #0087b5;
+    background-color: none !important;
+    -moz-box-shadow: inset 0 -2px 0px 0px #0087B5;
+    -webkit-box-shadow: inset 0 -2px 0px 0px #0087B5;
+    box-shadow: inset 0 -2px 0px 0px #0087B5;
+    font-weight:500;
+}
+
+.side-nav  a.active {
+    color: #0087B5;
+    background-color: none !important;
+    -moz-box-shadow: inset 0 -2px 0px 0px #0087B5;
+    -webkit-box-shadow: inset 0 -2px 0px 0px #0087B5;
+    box-shadow: inset 0 -2px 0px 0px #0087B5;
+    font-weight:500;
+}
+
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    color: #0087B5 !important;
+}
+
+.brand-logo img {
+            height: 26px;
+    width:115px;
+}
+
+/*@media only screen and (min-width: 993px) {
+    nav .container {
+        width: 85%;
+    }
+}*/
+
+@media only screen and (min-width: 1639px) and (max-width:1731px) {
+    nav ul a {
+    font-size:1vw;
+}
+}
+
+@media only screen and (min-width: 1269px) and (max-width:1638px) {
+    nav ul a {
+    font-size:1vw;
+}
+}
+
+@media only screen and (min-width: 1163px) and (max-width:1268px) {
+    nav ul a {
+    font-size:1.1vw;
+}
+}
+
+@media only screen and (min-width: 992px) and (max-width:1162px) {
+    nav ul a {
+    font-size:1.2vw;
+}
+}
+
+nav .brand-logo {
+    position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        position: absolute;
+    }
+
+        nav .brand-logo img {
+        height: 26px;
+
+    }
+}
+
+
+
+nav .button-collapse {
+    float: right;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+     font-size: 18px;
+    font-weight: 200;
+    margin-top: 5px;
+        color: #727E96;
+}
+
+.logo-text {
+    color: #727E96;
+    font-size: 15px;
+    opacity: 0.8;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 18px;
+}
+
+@media only screen  and (max-width:1416px) {
+    .logo-text {
+    color: #727E96;
+    font-size: 1vw;
+
+}
+}
+
+@media only screen  and (max-width:992px) {
+    .logo-text {
+    font-size: 15px;
+    margin-left:110px;
+
+}
+}
+
+.dl-btn {
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: 1px solid #C8102E;
+    border-radius: 2px;
+    padding: 7px 9px;
+}
+
+.pdf-dl a {
+    color:#C8102E!important;
+}
+
+.pdf-dl a:hover {
+    background-color:#C8102E;
+    color:#ffffff !important;
+}
+
+
+.pdf-dl a:hover i {
+        color:#ffffff !important;
+}
+@media only screen and (min-width: 601px) {
+.pdf-dl {
+    margin-top: 2vh;
+    margin-bottom:3vh;
+    }
+}
+
+
+/* Colors */
+
+.navy {
+    background-color: #071D49 !important;
+}
+
+.red {
+    background-color: #C8102E !important;
+}
+
+.royal {
+    background-color: #5f259f !important;
+}
+
+.indigo {
+    background-color: #4c89e3 !important;
+}
+
+.teal {
+    background-color: #0087b5 !important;
+}
+
+.sky {
+    background-color: #40addc !important;
+}
+
+.sea {
+    background-color: #43cebd !important;
+}
+
+.red-text {
+    color:#c8102e !important;
+}
+
+.red-text i {
+    position: relative;
+    top: 5px;
+    font-size:18px;
+}
+
+.indigo-text {
+    color: #4c89e3 !important;
+}
+
+
+.teal-text {
+    color: #0087B5;
+}
+
+.royal-text {
+    color: #5f259f;
+}
+
+@media screen and (max-width: 1162px) and (min-width:993px) {
+    .logo-text {
+        display: none;
+    }
+}
+
+/* Rectangles */
+
+.rect {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: initial;
+    letter-spacing: 0px;
+}
+
+
+.rect-1 {
+    width:109px;
+    height:60px;
+    color: white;
+     font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    padding-top: 1.5vh;
+    margin-top: 10px;
+    font-size:18px;
+}
+
+.rect-2 {
+    width: 142px;
+    height: 80px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    padding-top: 2.5vh;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+.rect-3 {
+    height: 100px;
+    width: 164px;
+    box-shadow: 0 13px 10px 0 rgba(175, 175, 175, 0.4);
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    margin-bottom: 2vh;
+    padding-top: 3.7vh;
+    font-size:18px;
+}
+
+.rect-4 {
+    width: 273px;
+    height: 100px;
+    margin-right: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 15px 0 0 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.rect-6 {
+    max-width: 464px;
+    max-height: 230px;
+    text-align: center;
+    padding: 8vh;
+}
+
+.rect-6 img {
+    max-width: 154px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footer */
+
+.footer-copyright {
+    font-family: 'proximanova', sans-serif;
+}
+
+.footer-copyright img {
+    width: 102px;
+}
+
+.page-footer {
+    padding:30px 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+
+/* Section */
+
+.section {
+    margin-bottom: 7vh;
+}
+
+.section .subtext {
+    color: #071D49;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 4vh 0;
+    font-weight: 300;
+}
+
+.subsection {
+    margin-left: 10%;
+}
+
+.subsection p {
+    max-width: 460px;
+}
+
+.subsection h3 {
+    font-size: 25px;
+}
+
+.divider {
+    position: absolute;
+    left: 0;
+    right:0;
+}
+
+.alt-bg {
+    background-color: #f7fbfc;
+    left: 0;
+    right: 0;
+    padding: 5vh 0vh;
+    margin: 5vh 0vh;
+}
+
+/* Cover Page */
+/*.cover-bg {
+      background-color: rgba(0,135,181,0.08);
+}*/
+
+.cover-bg h3 {
+    font-size:25px;
+}
+
+.cover-bg h2 {
+    font-size:35px;
+    margin-top:15vh;
+}
+
+/*.cover-bg .page-footer {
+    position: absolute;
+}*/
+
+.cover-bg .section p {
+    margin-bottom:3vh;
+}
+
+@media screen and (max-width: 767px) {
+    .skewed-content {
+        padding-bottom:3vh;
+    }
+
+    .cover-bg h2 {
+    margin-top:7vh;
+    }
+}
+
+/* MXPT Logo */
+
+.logo-block img {
+    max-width: 220px;
+}
+
+.logo-block,
+.icon-block {
+    text-align: left;
+}
+
+/* Color Page */
+
+.color-block .subtext {
+    margin: 4vh 0 0;
+}
+
+.color-block .rect {
+    float: left;
+}
+
+.color-block table {
+    max-width: 274px;
+}
+
+.color-block table td {
+    height: 30px;
+    padding: 0;
+}
+
+.tints .offset1 {
+    margin-bottom: 10vh;
+}
+
+.tint10 {
+    background-color: rgba(7, 29, 73, 0.9) !important;
+}
+
+.tint20 {
+    background-color: rgba(7, 29, 73, 0.8) !important;
+}
+
+.tint30 {
+    background-color: rgba(7, 29, 73, 0.7) !important;
+}
+
+.tint40 {
+    background-color: rgba(7, 29, 73, 0.6) !important;
+}
+
+.tint50 {
+    background-color: rgba(7, 29, 73, 0.5) !important;
+}
+
+.tint60 {
+    background-color: rgba(7, 29, 73, 0.4) !important;
+}
+
+
+
+.tintRect .col {
+        padding: 0 0.25rem !important;
+}
+
+
+
+/* Typography */
+
+.type-block h4 {
+    font-weight: 400;
+    margin: 4vh 0 2vh;
+    font-size: 24px;
+    color: #4B5A7A;
+}
+
+.type-block p {
+    margin-top: 1vh;
+    font-size: 18px !important;
+    opacity:1;
+}
+.type-block span {
+    opacity:0.7;
+}
+
+
+
+.titillium {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.arial {
+        font-family: "arial", sans-serif;
+
+}
+
+.helvetica {
+    font-family: "helvetica", sans-serif;
+}
+
+.helvetica-new {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.light {
+    font-weight: 200;
+}
+
+
+
+.treatment {
+    margin-top: 5vh;
+}
+
+.treatment hr {
+    border: 0;
+  border-top: 0.5px solid #AEAEAE;
+  border-bottom: 1px solid #fff;
+   /* margin-left:-14px;*/
+}
+
+.treatment .type {
+    color: #0087B5;
+    font-size: 17px;
+    font-weight:300;
+}
+
+/*@media only screen and (min-width: 993px) {
+    .treatment .type {
+    position: absolute;
+    right: 50px;
+}
+}*/
+
+.treatment .header {
+    margin-top: -3vh;
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+.treatment .s12 {
+    margin-bottom:3vh;
+    }
+}
+
+.line {
+    width:100%;
+    border-top: 0.5px solid #AEAEAE;
+}
+
+
+/* Brand Elements */
+
+.presentation {
+    max-width: 750px;
+    margin: 4vh auto;
+}
+
+.slash h4 {
+    font-family: 'proximanova', sans-serif;
+    font-size:20px;
+}
+
+
+/* Icons */
+
+.icon-row {
+    margin: 6vh 0;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+
+.alt-bg .icon-row .col {
+    min-height: 15vh;
+}
+
+.alt-bg .product-icons .col {
+    min-height: 12vh;
+}
+
+.icon-row img {
+    height: 35px;
+}
+
+.product-page img {
+    margin-right:20px;
+    height:  100%;
+}
+
+ .snapshot .icon-row .subtext {
+    margin-top: 2vh;
+     margin-bottom:4vh;
+}
+
+.product-page .subtext {
+    margin-top:0px;
+}
+
+.section .icon-row .subtext span {
+    font-size: 80%;
+}
+
+.icon-example h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin:22px 0px;
+}
+
+.icon-example .anchor {
+    color: #4c89e3;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+.benefits img {
+    height: 28px;
+    margin-right: 1vh;
+}
+
+
+
+
+
+/* Photography */
+
+.full-width img {
+    width: 100%;
+}
+
+.moods {
+    color: #0087b5;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight:300;
+}
+
+.subheader {
+    font-size: 25px;
+    color: #3B4C6F;
+    margin: 0px 0px 4vh;
+}
+
+.photo-row img {
+max-height: 345px;
+}
+
+/*.moods .col {
+    padding: 4vh;
+}
+
+@media screen and (min-width: 768px) {
+    .moods {
+        margin-top: 10vh;
+    }
+}*/
+
+
+/* Presentations */
+
+.presentations .section {
+    margin-bottom: 4vh;
+}
+
+.flexy {
+    display:flex;
+}
+
+@media screen and (max-width: 1299px)  {
+    .treatment .flexy {
+        display:block;
+    }
+}
+
+
+
+/* equal height columns */
+
+@media screen and (max-width: 1583px) and (min-width: 1370px) {
+    .brightLogo {
+        margin-bottom:45px;
+    }
+}
+
+@media screen and (max-width: 1402px) and (min-width: 1370px) {
+    .brightLogo {
+        margin-bottom:0px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1177px) {
+    .brightLogo {
+        margin-bottom: 45px;
+    }
+}
+
+
+@media screen and (max-width: 1393px) and (min-width: 1370px) {
+    .darkLogo {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    .darkLogo {
+        margin-bottom: 45px;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1123px) {
+    .darkLogo {
+        margin-bottom: 75px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 993px) {
+
+    .comparison p {
+        min-height: 100px;
+    }
+
+    .comparison img {
+        margin-top:15px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .comparison .s12 {
+        margin-top: 5vh;
+    }
+    .comparison p {
+        margin-top: 0;
+    }
+}
+
+/* Misc */
+.top10 {
+    padding-top: 10px !important;
+}
+
+.top30 {
+    padding-top: 30px !important;
+}
+
+.topMinus30 {
+    margin-top: -30px;
+}
+
+@media screen and (min-width: 768px) {
+    .offset1 {
+        margin-left: 8% !important;
+    }
+}
+
+.divider2 {
+    position: relative;
+    margin-bottom: 4vh;
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.headers .row {
+    margin: 5vh 0;
+    font-size:18px;
+}
+
+.big {
+    font-size: 84px;
+    padding-top: 3vh !important;
+    line-height: 30px;
+    letter-spacing: -5px;
+    font-weight:600;
+}
+
+.big .subtext {
+    font-size: 15px !important;
+    letter-spacing: 0px;
+    line-height: 5px;
+}
+
+.numberCircle,
+.numberCircle:before,
+.numberCircle:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+
+
+.numberCircle {
+    margin: 20px 25px 20px 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 9px 13px;
+    background: transparent;
+    border: 1.5px solid #0087B5;
+    color: #0087b5;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+.numberCircle1 {
+    margin: 20px 15px 20px 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 9px 15px;
+    background: transparent;
+    border: 1.5px solid #0087B5;
+    color: #0087b5;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+.section a {
+    color:#0087b5;
+}

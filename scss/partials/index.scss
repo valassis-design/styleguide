@@ -1,0 +1,37 @@
+.hero {
+    background: url(//s3.amazonaws.com/valassis-digital-2018/wp-content/uploads/sites/19/2018/07/about-bottom-cta-bg.png) #F8F8F9 no-repeat;
+    background-position: bottom right;
+    padding:8vh 0 12vh;
+
+		h1 {
+		color: #121C4F;
+		font-family: "din-2014-narrow";
+		font-size: 50px;
+		font-weight: 100;
+		letter-spacing: 15px;
+        line-height: 70px;
+        text-transform: uppercase;
+
+		strong {
+            display: block;
+            font-weight:500;
+		}
+	}
+
+	p {
+		font-family: 'din-2014', sans-serif;
+		color: #121C4F;
+		font-size: 18px;
+		line-height: 26px;
+        margin-top:45px;
+        padding-left:0px;
+        font-weight:300;
+	}
+}
+
+.overview {
+    padding:5vh 15px 10vh;
+    h3 {
+        padding:30px 0px;
+    }
+}
