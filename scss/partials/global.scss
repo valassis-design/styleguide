@@ -1,7 +1,7 @@
 html {
-    font-family: 	"proxima-nova", sans-serif;
+    font-family: 	$body-text, sans-serif;
     letter-spacing:.2px;
-        color: #121C4F;
+        color: $navy;
 }
 
 nav {
@@ -11,29 +11,29 @@ nav {
 p {
     font-size: 18px;
     line-height: 28px;
-    color: #121C4F;
+    color: $text-navy;
     font-weight:300;
-    font-family: "proxima-nova", sans-serif;
+    font-family: $body-text, sans-serif;
     a {
-        color: #031B92;
+        color: $bright-blue;
     }
 }
 
 h1 {
-    font-family: "din-2014-narrow", sans-serif;
+    font-family: $header-narrow, sans-serif;
     font-size: 45px;
     font-weight: 300;
 }
 
 h2 {
-    font-family: "din-2014-narrow", sans-serif;
+    font-family: $header-narrow, sans-serif;
     font-size: 35px;
-    color:#121C4F;
+    color:$navy;
 }
 
 h3 {
     color: #031B92;
-    font-family: "din-2014-narrow", sans-serif;
+    font-family: $header-narrow, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1.88px;
@@ -42,7 +42,7 @@ h3 {
 
 h4 {
     font-weight: 500;
-    color: #121C4F;
+    color: $navy;
     font-size: 16px;
     margin: 4vh 0 1vh;
 }
@@ -50,17 +50,53 @@ h4 {
 h5 {
     font-size:20px;
     font-weight:500;
-    font-family: 	"proxima-nova", sans-serif;
+    font-family: 	$body-text, sans-serif;
+}
+
+.page-nav-divider {
+    box-shadow: 0 -1px 8px 0 rgba(18, 28, 79, 0.08);
+}
+
+/* BTNS */
+.red-btn {
+    color: $poppy;
+    font-family: $body-text;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid $poppy;
+    border-radius: 3px;
+    padding: 9px;
+    width:max-content;
+    padding-right:25px;
+    margin-left: 5vw;
+    text-decoration: none;
+    opacity:1;
+    background-position: 94% 45%!important;
+    background: url(/img/dl-icon.png) no-repeat;
+    background-size: 12px;
+    &:hover {
+        color:#ffffff;
+        background-color: $poppy;
+        text-decoration:none;
+        opacity:1;
+        background: url(/img/dl-icon-hover.png) $poppy no-repeat;
+        background-size: 12px;
+    }
 }
 
 /* Page Nav */
 
 .page-nav {
-        padding: 1vh 0 5vh;
+        padding: 2.5vw 0;
         display: block;
+        margin-bottom:0;
     p {
-        color: #121C4F;
-        font-family: "din-2014-narrow", sans-serif;
+        color: $navy;
+        font-family: $header-narrow;
         text-transform: uppercase;
         letter-spacing:2.84px;
         font-size: 18px;
@@ -69,9 +105,9 @@ h5 {
         margin: 0px 0 5px;
     }
     h5 {
-        color: #FF4141;
+        color: $poppy;
         font-size: 22px;
-        font-family: 'Titillium Web', sans-serif;
+        font-family: $header;
         font-weight: 300;
         margin-top: 0px;
     }
@@ -79,24 +115,173 @@ h5 {
         position: relative;
         margin-left: -30px;
         top: 67px;
-        color: #FF4141;
+        color: $poppy;
     }
     .next .icon {
         position: relative;
         margin-right: -30px;
         top: 67px;
-        color: #FF4141;
+        color: $poppy;
+        width: 16px;
+        height: 16px;
+        background-image: url(/img/arrow_forward.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        margin-top: -25px;
+        &:hover {
+            background-image: url(/img/arrow_forward-hover.svg);
+        }
     }
     a:hover h5 {
-        color: #071D49 !important;
+        color: $text-navy !important;
     }
-    a:hover i {
-        color: #071D49 !important;
-    }
+
     .next:hover {
-        color: #1234dc !important;
+        color: $bright-blue !important;
+    }
+    .search-icon-container .search-icon {
+        width: 16px;
+        height: 16px;
+        background-image: url(/img/arrow_forward.svg);
+        display: block;
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        margin-bottom: -5px;
     }
 }
+
+/* Nav */
+.navbar {
+    background-color:#ffffff;
+    .navbar-brand {
+        img {
+            width:140px;
+        }
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: $text-navy;
+            &:hover {
+                color:$poppy;
+            }
+        }
+    }
+} 
+
+
+
+nav {
+    ul {
+        a {
+            color: $navy;
+            font-size: 14px;
+            letter-spacing:0.35px;
+            opacity:0.75;
+            font-family: $body-text, sans-serif;
+            .active {
+                color: $poppy;
+                background-color: none !important;
+                -moz-box-shadow: inset 0 -2px 0px 0px $poppy;
+                -webkit-box-shadow: inset 0 -2px 0px 0px $poppy;
+                box-shadow: inset 0 -2px 0px 0px $poppy;
+                font-weight:500;
+            }
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.0);
+                color: $poppy;
+            }
+        
+        }
+    }
+}
+
+
+.brand-logo img {
+    width:115px;
+}
+
+
+.logo-text {
+    color: $navy;
+    font-size: 15px;
+    letter-spacing:2.5px;
+    font-family: $header-narrow;
+    padding: 18px;
+    padding-left:25px;
+    vertical-align: -webkit-baseline-middle;
+    text-transform:uppercase;
+}
+
+
+
+
+@media only screen  and (max-width:991px) {
+    .logo-text {
+        display:none;
+    }
+    nav ul a {
+        color: #121C4F;
+        font-size: 1.4vw;
+        letter-spacing: 0.35px;
+        opacity: 0.75;
+        font-family: "proxima-nova", sans-serif, sans-serif;
+    }
+    .red-btn {
+        font-size:1.4vw;
+        padding:5px;
+        padding-right:22px;
+    }
+    .navbar-nav {
+        padding-top:10px;
+    }
+}
+
+@media only screen  and (max-width:767px) {
+    .logo-text {
+        display:none;
+    }
+    .red-btn {
+        display:none;
+    }
+    nav ul a {
+        color: #121C4F;
+        font-size: 4vw;
+        letter-spacing: 0.35px;
+        opacity: 1;
+        font-family: "proxima-nova", sans-serif, sans-serif;
+    }
+}
+
+
+
+
+/* Footer */
+
+.page-footer {
+    padding:30px 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-copyright {
+    font-family: $header;
+    font-size:12px;
+    letter-spacing:1.5px;
+    line-height: 15px;
+    opacity:0.8;
+    font-weight:100;
+    img {
+        width:140px;
+    }
+}
+
+
+
 
 
 

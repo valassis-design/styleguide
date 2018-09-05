@@ -94,41 +94,7 @@ strong {
 
 /* Nav */
 
-nav ul a {
-    color: #071D49;
-    font-size: 16px;
-    font-family: 'proximanova', sans-serif;
-    padding: 0px 1vw 0px 1vw !important;
-}
 
-nav ul a.active {
-    color: #0087b5;
-    background-color: none !important;
-    -moz-box-shadow: inset 0 -2px 0px 0px #0087B5;
-    -webkit-box-shadow: inset 0 -2px 0px 0px #0087B5;
-    box-shadow: inset 0 -2px 0px 0px #0087B5;
-    font-weight:500;
-}
-
-.side-nav  a.active {
-    color: #0087B5;
-    background-color: none !important;
-    -moz-box-shadow: inset 0 -2px 0px 0px #0087B5;
-    -webkit-box-shadow: inset 0 -2px 0px 0px #0087B5;
-    box-shadow: inset 0 -2px 0px 0px #0087B5;
-    font-weight:500;
-}
-
-
-nav ul a:hover {
-    background-color: rgba(0, 0, 0, 0.0) !important;
-    color: #0087B5 !important;
-}
-
-.brand-logo img {
-            height: 26px;
-    width:115px;
-}
 
 /*@media only screen and (min-width: 993px) {
     nav .container {
@@ -189,29 +155,7 @@ nav .button-collapse {
         color: #727E96;
 }
 
-.logo-text {
-    color: #727E96;
-    font-size: 15px;
-    opacity: 0.8;
-    font-family: 'Titillium Web', sans-serif;
-    padding: 18px;
-}
 
-@media only screen  and (max-width:1416px) {
-    .logo-text {
-    color: #727E96;
-    font-size: 1vw;
-
-}
-}
-
-@media only screen  and (max-width:992px) {
-    .logo-text {
-    font-size: 15px;
-    margin-left:110px;
-
-}
-}
 
 .dl-btn {
     transition: .2s ease-out;
@@ -244,13 +188,6 @@ nav .button-collapse {
 
 /* Colors */
 
-.navy {
-    background-color: #071D49 !important;
-}
-
-.red {
-    background-color: #C8102E !important;
-}
 
 .royal {
     background-color: #5f259f !important;
@@ -371,32 +308,6 @@ nav .button-collapse {
     max-width: 154px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*footer */
-
-.footer-copyright {
-    font-family: 'proximanova', sans-serif;
-}
-
-.footer-copyright img {
-    width: 102px;
-}
-
-.page-footer {
-    padding:30px 0;
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-}
 
 
 
