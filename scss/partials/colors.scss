@@ -2,3 +2,43 @@
 .navy {
     background-color: $navy; 
 }
+.poppy {
+    background-color: $poppy;
+}
+.bright-blue {
+    background-color: $bright-blue;
+}
+
+.text-navy-bg {
+    background-color: $text-navy;
+}
+
+.pale-yellow {
+    background-color: $pale-yellow;
+}
+
+.rect {
+    width: 100%;
+    min-height: 100px;
+    display: block;
+    cursor: initial;
+    letter-spacing: 0px;
+}
+
+.color-type {
+    margin-left: 8.3%;
+    margin-top: 34px;
+    span {
+        font-family:$body-text;
+        opacity:.7;
+        color:$navy;
+        font-size:11px;
+    }
+    p {
+        color:$navy;
+        font-size:18px;
+        font-weight:500;
+    }
+}
+
+

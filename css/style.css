@@ -1,5 +1,5 @@
 html {
-  font-family: "proxima-nova", sans-serif, sans-serif;
+  font-family: "proxima-nova", sans-serif;
   letter-spacing: .2px;
   color: #121C4F; }
 
@@ -11,41 +11,44 @@ p {
   line-height: 28px;
   color: #031B92;
   font-weight: 300;
-  font-family: "proxima-nova", sans-serif, sans-serif; }
+  font-family: "proxima-nova", sans-serif; }
   p a {
     color: #3452f4; }
 
 h1 {
-  font-family: "din-2014-narrow", sans-serif, sans-serif;
+  font-family: "din-2014-narrow", sans-serif;
   font-size: 45px;
   font-weight: 300; }
 
 h2 {
-  font-family: "din-2014-narrow", sans-serif, sans-serif;
+  font-family: "din-2014-narrow", sans-serif;
   font-size: 35px;
   color: #121C4F; }
 
 h3 {
   color: #031B92;
-  font-family: "din-2014-narrow", sans-serif, sans-serif;
+  font-family: "din-2014-narrow", sans-serif;
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 1.88px;
   line-height: 43px; }
 
 h4 {
-  font-weight: 500;
+  font-weight: 400;
   color: #121C4F;
-  font-size: 16px;
+  font-size: 30px;
+  letter-spacing: 0.31px;
+  font-family: "din-2014-narrow", sans-serif;
   margin: 4vh 0 1vh; }
 
 h5 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
-  font-family: "proxima-nova", sans-serif, sans-serif; }
+  color: #121C4F;
+  font-family: "din-2014-narrow", sans-serif; }
 
-.page-nav-divider {
-  box-shadow: 0 -1px 8px 0 rgba(18, 28, 79, 0.08); }
+section {
+  padding: 2vh 0; }
 
 /* BTNS */
 .red-btn {
@@ -59,10 +62,11 @@ h5 {
   display: inline-block;
   border: 1px solid #FF4141;
   border-radius: 3px;
-  padding: 9px;
+  padding: 5px 9px;
   width: max-content;
   padding-right: 25px;
   margin-left: 5vw;
+  margin-top: 5px;
   text-decoration: none;
   opacity: 1;
   background-position: 94% 45% !important;
@@ -77,9 +81,11 @@ h5 {
     background-size: 12px; }
 
 /* Page Nav */
+.page-nav-divider {
+  box-shadow: 0 -1px 8px 0 rgba(18, 28, 79, 0.08); }
+
 .page-nav {
   padding: 2.5vw 0;
-  display: block;
   margin-bottom: 0; }
   .page-nav p {
     color: #121C4F;
@@ -100,7 +106,16 @@ h5 {
     position: relative;
     margin-left: -30px;
     top: 67px;
-    color: #FF4141; }
+    color: #FF4141;
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/arrow_backward.svg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    margin-top: -25px; }
+    .page-nav .previous .icon:hover {
+      background-image: url(/img/arrow_backward-hover.svg); }
   .page-nav .next .icon {
     position: relative;
     margin-right: -30px;
@@ -116,9 +131,14 @@ h5 {
     .page-nav .next .icon:hover {
       background-image: url(/img/arrow_forward-hover.svg); }
   .page-nav a:hover h5 {
-    color: #031B92 !important; }
+    color: #031B92 !important;
+    text-decoration: none; }
+  .page-nav a:hover {
+    color: #031B92 !important;
+    text-decoration: none; }
   .page-nav .next:hover {
-    color: #3452f4 !important; }
+    color: #3452f4 !important;
+    text-decoration: none; }
   .page-nav .search-icon-container .search-icon {
     width: 16px;
     height: 16px;
@@ -134,27 +154,28 @@ h5 {
   .navbar .navbar-brand img {
     width: 140px; }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #031B92; }
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #FF4141; }
+.navbar-light .navbar-nav .nav-item {
+  padding-top: 5px; }
 
-nav ul a {
-  color: #121C4F;
+.navbar-light .navbar-nav .nav-link {
+  color: #031B92;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   font-size: 14px;
   letter-spacing: 0.35px;
   opacity: 0.75;
-  font-family: "proxima-nova", sans-serif, sans-serif; }
-  nav ul a .active {
-    color: #FF4141;
-    background-color: none !important;
-    -moz-box-shadow: inset 0 -2px 0px 0px #FF4141;
-    -webkit-box-shadow: inset 0 -2px 0px 0px #FF4141;
-    box-shadow: inset 0 -2px 0px 0px #FF4141;
-    font-weight: 500; }
-  nav ul a:hover {
-    background-color: rgba(0, 0, 0, 0);
+  font-family: "proxima-nova", sans-serif;
+  display: inline; }
+  .navbar-light .navbar-nav .nav-link:hover {
     color: #FF4141; }
+
+.navbar-light .navbar-nav .active {
+  color: #FF4141 !important;
+  -moz-box-shadow: inset 0 -2px 0px 0px #FF4141;
+  -webkit-box-shadow: inset 0 -2px 0px 0px #FF4141;
+  box-shadow: inset 0 -2px 0px 0px #FF4141;
+  font-weight: 500;
+  padding-bottom: 19px; }
 
 .brand-logo img {
   width: 115px; }
@@ -197,6 +218,18 @@ nav ul a {
     opacity: 1;
     font-family: "proxima-nova", sans-serif, sans-serif; } }
 
+.good {
+  color: #3452f4;
+  font-size: 20px;
+  font-family: "din-2014", sans-serif;
+  font-weight: 500; }
+
+.bad {
+  color: #FF4141;
+  font-size: 20px;
+  font-family: "din-2014", sans-serif;
+  font-weight: 500; }
+
 /* Footer */
 .page-footer {
   padding: 30px 0;
@@ -210,12 +243,13 @@ nav ul a {
   letter-spacing: 1.5px;
   line-height: 15px;
   opacity: 0.8;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #ffffff; }
   .footer-copyright img {
     width: 140px; }
 
 .hero {
-  padding: 8vh 0 12vh; }
+  padding: 13vh 0; }
   .hero h1 {
     color: #121C4F;
     font-family: "din-2014-narrow", sans-serif;
@@ -232,18 +266,21 @@ nav ul a {
     color: #121C4F;
     font-size: 18px;
     line-height: 26px;
-    margin-top: 45px;
+    margin-top: 30px;
     padding-left: 0px;
-    font-weight: 300; }
+    font-weight: 300;
+    max-width: 70%; }
 
 .overview {
-  padding: 5vw 15px 5vw; }
+  padding: 4vw 15px 4vw; }
   .overview h3 {
-    padding: 30px 0px; }
+    padding: 10px 0px; }
 
 .hero-home {
   background: url(//s3.amazonaws.com/valassis-digital-2018/wp-content/uploads/sites/19/2018/07/about-bottom-cta-bg.png) #F8F8F9 no-repeat;
   background-position: bottom right; }
+  .hero-home section p {
+    max-width: 70%; }
 
 .hero-page {
   background: url(/img/hero-bg.png) #F8F8F9 no-repeat;
@@ -253,10 +290,74 @@ nav ul a {
 .navy {
   background-color: #121C4F; }
 
+.poppy {
+  background-color: #FF4141; }
+
+.bright-blue {
+  background-color: #3452f4; }
+
+.text-navy-bg {
+  background-color: #031B92; }
+
+.pale-yellow {
+  background-color: #fed189; }
+
+.rect {
+  width: 100%;
+  min-height: 100px;
+  display: block;
+  cursor: initial;
+  letter-spacing: 0px; }
+
+.color-type {
+  margin-left: 8.3%;
+  margin-top: 34px; }
+  .color-type span {
+    font-family: "proxima-nova", sans-serif;
+    opacity: .7;
+    color: #121C4F;
+    font-size: 11px; }
+  .color-type p {
+    color: #121C4F;
+    font-size: 18px;
+    font-weight: 500; }
+
+.logos h4 {
+  margin: 1vw 0 1.1vw; }
+
+.logos .subtext {
+  font-family: "proxima-nova", sans-serif;
+  opacity: 0.5;
+  color: #121C4F;
+  font-style: italic;
+  padding: 1vw 0; }
+
+.logos .logo-block {
+  margin-bottom: 4vw;
+  margin-top: 3vw; }
+  .logos .logo-block .col-lg-4 img {
+    max-width: 300px; }
+  .logos .logo-block p {
+    font-weight: 500;
+    color: #121C4F;
+    opacity: 0.8;
+    font-size: 16px; }
+  .logos .logo-block .support-text {
+    float: left;
+    margin-right: 70px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 16px;
+    margin-top: 25px; }
+
+.logos .ml3 {
+  margin-left: 3%; }
+
+.goodBad img {
+  margin-top: -5px; }
+
 /*@import "partials/brand";
 
 @import "partials/icons";
-@import "partials/logo";
 @import "partials/photography";
 @import "partials/presentations";
 @import "partials/typography";

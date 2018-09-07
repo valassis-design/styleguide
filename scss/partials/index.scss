@@ -1,5 +1,5 @@
 .hero {
-    padding:8vh 0 12vh;
+    padding:13vh 0;
 
 		h1 {
 		color: $navy;
@@ -21,25 +21,32 @@
 		color: $navy;
 		font-size: 18px;
 		line-height: 26px;
-        margin-top:45px;
+        margin-top:30px;
         padding-left:0px;
         font-weight:300;
+        max-width:70%;
 	}
 }
 
 .overview {
-    padding:5vw 15px 5vw;
+    padding:4vw 15px 4vw;
     h3 {
-        padding:30px 0px;
+        padding:10px 0px;
     }
 }
 .hero-home {
     background: url(//s3.amazonaws.com/valassis-digital-2018/wp-content/uploads/sites/19/2018/07/about-bottom-cta-bg.png) #F8F8F9 no-repeat;
     background-position: bottom right;
+    section {
+        p {
+            max-width:70%;
+        }
+    }
 }
 
 .hero-page {
     background: url(/img/hero-bg.png) #F8F8F9 no-repeat;
     background-size:cover;
+    
 }
 	

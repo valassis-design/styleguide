@@ -1,0 +1,48 @@
+.logos {
+    h4 {
+        margin:1vw 0 1.1vw;
+    }
+    .subtext {
+        font-family: $body-text;
+        opacity:0.5;
+        color:$navy;
+        font-style:italic;
+        padding:1vw 0;
+    
+    }
+    .logo-block {
+        margin-bottom:4vw;
+        margin-top:3vw;
+        .col-lg-4 {
+            img {
+                max-width:300px;
+            }
+        }
+
+        p {
+            font-weight:500;
+            color:$navy;
+            opacity:0.8;
+            font-size:16px;
+        }
+        .support-text {
+            float:left;
+            margin-right:70px;
+            font-family:$body-text;
+            font-size:16px;
+            margin-top:25px;
+        }
+    }
+    .ml3 {
+        margin-left:3%;
+    }
+}
+
+
+
+.goodBad {
+    img {
+        margin-top:-5px;
+    }
+}
+
