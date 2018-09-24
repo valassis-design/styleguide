@@ -177,6 +177,12 @@ section {
   font-weight: 500;
   padding-bottom: 19px; }
 
+@media only screen and (max-width: 767px) {
+  .navbar-light .navbar-nav .active {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; } }
+
 .brand-logo img {
   width: 115px; }
 
@@ -302,6 +308,15 @@ section {
 .pale-yellow {
   background-color: #fed189; }
 
+.navy-text {
+  color: #121C4F; }
+
+.poppy-text {
+  color: #FF4141; }
+
+.bright-blue-text {
+  color: #3452f4; }
+
 .rect {
   width: 100%;
   min-height: 100px;
@@ -355,10 +370,120 @@ section {
 .goodBad img {
   margin-top: -5px; }
 
+.typography .type-block {
+  margin: 5vw 0; }
+  .typography .type-block h2 {
+    font-size: 50px;
+    color: #121C4F; }
+  .typography .type-block h5 {
+    color: #121C4F;
+    font-size: 20px;
+    font-weight: 400; }
+
+.typography .proxima {
+  font-family: "proxima-nova", sans-serif; }
+
+.typography .din {
+  font-family: "din-2014", sans-serif; }
+
+.typography .din-narrow {
+  font-family: "din-2014-narrow", sans-serif; }
+
+.typography .tints .tinted-do {
+  border: 1px dashed #3452f4;
+  color: #888DA7;
+  padding: 6px 14px;
+  max-width: 350px; }
+
+.typography .tints .tinted-dont-container {
+  background: rgba(3, 27, 146, 0.04);
+  max-width: 370px;
+  padding: 0px 10px 1px; }
+  .typography .tints .tinted-dont-container h5 {
+    padding-top: 10px; }
+
+.typography .tints .tinted-dont {
+  border: 1px dashed #FF4141;
+  color: #888DA7;
+  padding: 6px 14px;
+  max-width: 350px; }
+
+.typography .tints h5 {
+  margin-top: 4vw;
+  padding-left: 20px; }
+
+.typography .treatment-chart {
+  margin-top: 35px; }
+
+.typography .numbers ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px; }
+  .typography .numbers ol li {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    counter-increment: my-awesome-counter;
+    display: flex;
+    font-family: "proxima-nova", sans-serif;
+    color: #121C4F;
+    font-size: 16px;
+    font-weight: 400; }
+    .typography .numbers ol li:before {
+      content: counter(my-awesome-counter) " ";
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 14px;
+      position: relative;
+      --size: 22px;
+      left: -25px;
+      line-height: var(--size);
+      padding: 1px 10px 1px 8px;
+      width: var(--size);
+      height: var(--size);
+      top: 0;
+      background: #3452f4;
+      border-radius: 50%;
+      text-align: center;
+      font-family: "din-2014-narrow", sans-serif; }
+    .typography .numbers ol li .demi {
+      font-size: 18px; }
+    .typography .numbers ol li .sixteen {
+      font-size: 16px; }
+    .typography .numbers ol li .list-content {
+      display: inline-block;
+      margin-top: -5px; }
+
+.typography .numbers .second-level-list {
+  list-style-type: none;
+  margin-top: 25px; }
+  .typography .numbers .second-level-list li {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    counter-increment: none;
+    display: block; }
+    .typography .numbers .second-level-list li:before {
+      list-style-type: none;
+      display: none; }
+
+@media only screen and (min-width: 768px) {
+  .typography .p75 {
+    max-width: 75%; } }
+
+.demi {
+  font-weight: 600; }
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .tint-height {
+    min-height: 58px; } }
+
 /*@import "partials/brand";
 
 @import "partials/icons";
 @import "partials/photography";
 @import "partials/presentations";
-@import "partials/typography";
+
 */

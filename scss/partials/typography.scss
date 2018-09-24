@@ -1,0 +1,151 @@
+.typography {
+	.type-block {
+		margin: 5vw 0;
+
+		h2 {
+			font-size: 50px;
+			color: $navy;
+		}
+
+		h5 {
+			color: $navy;
+			font-size: 20px;
+			font-weight: 400;
+		}
+	}
+
+	.proxima {
+		font-family: $body-text;
+	}
+
+	.din {
+		font-family: $header;
+	}
+
+	.din-narrow {
+		font-family: $header-narrow;
+	}
+
+	.tints {
+		.tinted-do {
+			border: 1px dashed $bright-blue;
+			color: #888DA7;
+			padding: 6px 14px;
+			max-width: 350px;
+		}
+
+		.tinted-dont-container {
+			background: rgba(3, 27, 146, 0.04);
+			max-width: 370px;
+			padding: 0px 10px 1px;
+
+			h5 {
+				padding-top: 10px;
+			}
+		}
+
+		.tinted-dont {
+			border: 1px dashed $poppy;
+			color: #888DA7;
+			padding: 6px 14px;
+			max-width: 350px;
+		}
+
+		h5 {
+			margin-top: 4vw;
+			padding-left: 20px;
+		}
+	}
+
+	.treatment-chart {
+		margin-top:35px;
+	}
+
+	.numbers {
+		ol {
+			list-style: none;
+			counter-reset: my-awesome-counter;
+			-webkit-margin-before: 1em;
+			-webkit-margin-after: 1em;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			-webkit-padding-start: 40px;
+
+			li {
+				margin-bottom: 25px;
+				padding-left: 10px;
+				counter-increment: my-awesome-counter;
+				display: flex;
+				font-family: $body-text;
+				color:$navy;
+				font-size:16px;
+				font-weight: 400;
+
+				&:before {
+					content: counter(my-awesome-counter) " ";
+					color: #ffffff;
+					font-weight: $demi;
+					font-size: 14px;
+					position: relative;
+					--size: 22px;
+					left: -25px;
+					line-height: var(--size);
+					padding: 1px 10px 1px 8px;
+					width: var(--size);
+					height: var(--size);
+					top: 0;
+					background: $bright-blue;
+					border-radius: 50%;
+					text-align: center;
+					font-family: $header-narrow;
+				}
+				.demi {
+					font-size:18px;
+				}
+				.sixteen {
+					font-size:16px;
+				}
+
+				.list-content {
+					display: inline-block;
+					margin-top:-5px;
+				}
+			}
+
+		}
+
+		.second-level-list {
+			list-style-type: none;
+			margin-top:25px;
+			li {
+				margin-bottom: 25px;
+				padding-left: 10px;
+				counter-increment: none;
+				display: block;
+
+				&:before {
+					list-style-type: none;
+					display:none;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.typography {
+		.p75 {
+			max-width: 75%;
+		}
+	}
+}
+
+.demi {
+	font-weight: 600;
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+	.tint-height {
+		min-height: 58px;
+	}
+}

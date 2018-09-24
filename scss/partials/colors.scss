@@ -2,6 +2,7 @@
 .navy {
     background-color: $navy; 
 }
+
 .poppy {
     background-color: $poppy;
 }
@@ -16,6 +17,18 @@
 .pale-yellow {
     background-color: $pale-yellow;
 }
+
+.navy-text {
+    color: $navy; 
+}
+
+.poppy-text {
+    color: $poppy;
+}
+.bright-blue-text {
+    color: $bright-blue;
+}
+
 
 .rect {
     width: 100%;

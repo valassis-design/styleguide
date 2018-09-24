@@ -212,7 +212,21 @@ section {
             padding-bottom: 19px;
         }
     }
-} 
+}
+
+@media only screen  and (max-width:767px) {
+
+    .navbar-light {
+        .navbar-nav {
+            .active {
+                -moz-box-shadow: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
 
 
 .brand-logo img {
