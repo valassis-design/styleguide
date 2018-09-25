@@ -1,0 +1,29 @@
+.iconography {
+    .icon-group {
+        img {
+            max-height:40px;
+            max-width:  40px;
+            vertical-align: middle;
+
+        }
+        .col-md-1 {
+            padding:40px 15px;
+        }
+        h5 {
+            margin: 130px 0px -10px;
+            font-weight:300;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .iconography {
+        .icon-group {
+            .col-md-1 {
+                -ms-flex: 10%;
+                flex: 10%;
+                max-width: 10%;
+            }
+        }
+    }
+}

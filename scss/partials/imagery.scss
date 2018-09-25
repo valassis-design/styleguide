@@ -1,0 +1,53 @@
+.imagery {
+    .photo-block {
+        margin-top:45px;
+        margin-bottom:45px;
+    }
+
+    .attributes {
+        margin-top:45px;
+        margin-bottom:55px;
+        div {
+            line-height: 25px;
+            color: $text-navy;
+            font-family: $header-narrow;
+            font-size:17px;
+            text-transform:uppercase;
+            line-height: 51px;
+            font-weight:400;
+
+        }
+    }
+
+    .comparison {
+        .goodBad {
+            margin-bottom:20px;
+        }
+        h4 {
+            color:$navy;
+            font-size:25px;
+            margin-top:40px;
+        }
+        .photo-block {
+            margin-bottom:7vw;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+	.imagery {
+		.p75 {
+			max-width: 75%;
+		}
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.imagery {
+		.photo-block {
+            img.img-fluid {
+            margin-bottom:45px;
+            }
+		}
+	}
+}

@@ -9,7 +9,7 @@ nav {
 p {
   font-size: 18px;
   line-height: 28px;
-  color: #031B92;
+  color: #121C4F;
   font-weight: 300;
   font-family: "proxima-nova", sans-serif; }
   p a {
@@ -480,10 +480,60 @@ section {
   .tint-height {
     min-height: 58px; } }
 
+.imagery .photo-block {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+.imagery .attributes {
+  margin-top: 45px;
+  margin-bottom: 55px; }
+  .imagery .attributes div {
+    line-height: 25px;
+    color: #031B92;
+    font-family: "din-2014-narrow", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 51px;
+    font-weight: 400; }
+
+.imagery .comparison .goodBad {
+  margin-bottom: 20px; }
+
+.imagery .comparison h4 {
+  color: #121C4F;
+  font-size: 25px;
+  margin-top: 40px; }
+
+.imagery .comparison .photo-block {
+  margin-bottom: 7vw; }
+
+@media only screen and (min-width: 768px) {
+  .imagery .p75 {
+    max-width: 75%; } }
+
+@media only screen and (max-width: 767px) {
+  .imagery .photo-block img.img-fluid {
+    margin-bottom: 45px; } }
+
+.iconography .icon-group img {
+  max-height: 40px;
+  max-width: 40px;
+  vertical-align: middle; }
+
+.iconography .icon-group .col-md-1 {
+  padding: 40px 15px; }
+
+.iconography .icon-group h5 {
+  margin: 130px 0px -10px;
+  font-weight: 300; }
+
+@media only screen and (min-width: 768px) {
+  .iconography .icon-group .col-md-1 {
+    -ms-flex: 10%;
+    flex: 10%;
+    max-width: 10%; } }
+
 /*@import "partials/brand";
-
 @import "partials/icons";
-@import "partials/photography";
 @import "partials/presentations";
-
 */
