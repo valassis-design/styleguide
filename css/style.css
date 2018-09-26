@@ -50,6 +50,10 @@ h5 {
 section {
   padding: 2vh 0; }
 
+@media only screen and (min-width: 768px) {
+  .p75 {
+    max-width: 75%; } }
+
 /* BTNS */
 .red-btn {
   color: #FF4141;
@@ -147,6 +151,10 @@ section {
     background-repeat: no-repeat;
     background-size: 16px 16px;
     margin-bottom: -5px; }
+  .page-nav .text-left {
+    padding-left: 45px; }
+  .page-nav .text-right {
+    padding-right: 45px; }
 
 /* Nav */
 .navbar {
@@ -253,6 +261,15 @@ section {
   color: #ffffff; }
   .footer-copyright img {
     width: 140px; }
+
+@media only screen and (min-width: 768px) {
+  .footer-copyright .float-right {
+    padding-top: 15px; } }
+
+@media only screen and (max-width: 767px) {
+  .footer-copyright .brand-logo img {
+    margin-top: -25px;
+    height: 70px; } }
 
 .hero {
   padding: 13vh 0; }
@@ -469,10 +486,6 @@ section {
       list-style-type: none;
       display: none; }
 
-@media only screen and (min-width: 768px) {
-  .typography .p75 {
-    max-width: 75%; } }
-
 .demi {
   font-weight: 600; }
 
@@ -507,10 +520,6 @@ section {
 .imagery .comparison .photo-block {
   margin-bottom: 7vw; }
 
-@media only screen and (min-width: 768px) {
-  .imagery .p75 {
-    max-width: 75%; } }
-
 @media only screen and (max-width: 767px) {
   .imagery .photo-block img.img-fluid {
     margin-bottom: 45px; } }
@@ -527,13 +536,40 @@ section {
   margin: 130px 0px -10px;
   font-weight: 300; }
 
+.iconography .solutions {
+  margin: 60px 0px 130px; }
+  .iconography .solutions .attr {
+    margin-bottom: 3vw; }
+    .iconography .solutions .attr img {
+      width: 48px;
+      margin-right: 35px; }
+    .iconography .solutions .attr span {
+      font-weight: 400;
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 18px;
+      color: #121C4F;
+      letter-spacing: 0.5px; }
+  .iconography .solutions .sol {
+    margin-bottom: 3vw; }
+    .iconography .solutions .sol img {
+      width: 64px;
+      margin-right: 35px; }
+    .iconography .solutions .sol span {
+      font-weight: 400;
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 18px;
+      color: #121C4F;
+      letter-spacing: 0.5px; }
+
+.iconography .solutions-icons h5 {
+  margin: 100px 0px -10px;
+  font-weight: 300; }
+
+.iconography .solutions-icons .solutions {
+  margin: 50px 0px 90px; }
+
 @media only screen and (min-width: 768px) {
   .iconography .icon-group .col-md-1 {
     -ms-flex: 10%;
     flex: 10%;
     max-width: 10%; } }
-
-/*@import "partials/brand";
-@import "partials/icons";
-@import "partials/presentations";
-*/
