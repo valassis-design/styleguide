@@ -271,6 +271,11 @@ section {
     margin-top: -25px;
     height: 70px; } }
 
+.cover-bg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
 .hero {
   padding: 13vh 0; }
   .hero h1 {
@@ -295,7 +300,8 @@ section {
     max-width: 70%; }
 
 .overview {
-  padding: 4vw 15px 4vw; }
+  padding: 4vw 15px 4vw;
+  flex: 1; }
   .overview h3 {
     padding: 10px 0px; }
 

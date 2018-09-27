@@ -1,3 +1,9 @@
+.cover-bg {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+}
+
 .hero {
     padding:13vh 0;
 
@@ -30,6 +36,7 @@
 
 .overview {
     padding:4vw 15px 4vw;
+    flex:1;
     h3 {
         padding:10px 0px;
     }
