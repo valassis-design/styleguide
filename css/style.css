@@ -74,14 +74,14 @@ section {
   text-decoration: none;
   opacity: 1;
   background-position: 94% 45% !important;
-  background: url(/img/dl-icon.png) no-repeat;
+  background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon.png") no-repeat;
   background-size: 12px; }
   .red-btn:hover {
     color: #ffffff;
     background-color: #FF4141;
     text-decoration: none;
     opacity: 1;
-    background: url(/img/dl-icon-hover.png) #FF4141 no-repeat;
+    background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon-hover.png") #FF4141 no-repeat;
     background-size: 12px; }
 
 /* Page Nav */
@@ -113,13 +113,13 @@ section {
     color: #FF4141;
     width: 16px;
     height: 16px;
-    background-image: url(/img/arrow_backward.svg);
+    background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_backward.svg");
     display: block;
     background-repeat: no-repeat;
     background-size: 16px 16px;
     margin-top: -25px; }
     .page-nav .previous .icon:hover {
-      background-image: url(/img/arrow_backward-hover.svg); }
+      background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward-hover.svg"); }
   .page-nav .next .icon {
     position: relative;
     margin-right: -30px;
@@ -127,13 +127,13 @@ section {
     color: #FF4141;
     width: 16px;
     height: 16px;
-    background-image: url(/img/arrow_forward.svg);
+    background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward.svg");
     display: block;
     background-repeat: no-repeat;
     background-size: 16px 16px;
     margin-top: -25px; }
     .page-nav .next .icon:hover {
-      background-image: url(/img/arrow_forward-hover.svg); }
+      background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward-hover.svg"); }
   .page-nav a:hover h5 {
     color: #031B92 !important;
     text-decoration: none; }
@@ -146,7 +146,7 @@ section {
   .page-nav .search-icon-container .search-icon {
     width: 16px;
     height: 16px;
-    background-image: url(/img/arrow_forward.svg);
+    background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward.svg");
     display: block;
     background-repeat: no-repeat;
     background-size: 16px 16px;
