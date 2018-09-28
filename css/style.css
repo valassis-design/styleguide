@@ -84,6 +84,30 @@ section {
     background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon-hover.png") #FF4141 no-repeat;
     background-size: 12px; }
 
+.navbar .red-btn {
+  background: none;
+  padding-right: 8px; }
+  .navbar .red-btn:hover {
+    color: #ffffff;
+    background-color: #FF4141;
+    text-decoration: none;
+    opacity: 1;
+    background-size: 12px; }
+
+.dropdown-menu {
+  left: 46px; }
+  .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    display: inline-block;
+    color: #121C4F;
+    font-family: "proxima-nova", sans-serif;
+    padding: 5px 10px;
+    background-position: 94% 45% !important;
+    background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon.png") no-repeat;
+    background-size: 12px; }
+    .dropdown-menu .dropdown-item:hover {
+      background-color: #e8e8e8; }
+
 /* Page Nav */
 .page-nav-divider {
   box-shadow: 0 -1px 8px 0 rgba(18, 28, 79, 0.08); }
@@ -183,7 +207,11 @@ section {
   -webkit-box-shadow: inset 0 -2px 0px 0px #FF4141;
   box-shadow: inset 0 -2px 0px 0px #FF4141;
   font-weight: 500;
-  padding-bottom: 19px; }
+  padding-bottom: 17px; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-light .navbar-nav .active {
+    padding-bottom: 12px; } }
 
 @media only screen and (max-width: 767px) {
   .navbar-light .navbar-nav .active {
