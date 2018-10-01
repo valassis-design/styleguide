@@ -142,8 +142,6 @@ section {
     background-repeat: no-repeat;
     background-size: 16px 16px;
     margin-top: -25px; }
-    .page-nav .previous .icon:hover {
-      background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward-hover.svg"); }
   .page-nav .next .icon {
     position: relative;
     margin-right: -30px;
@@ -156,16 +154,15 @@ section {
     background-repeat: no-repeat;
     background-size: 16px 16px;
     margin-top: -25px; }
-    .page-nav .next .icon:hover {
-      background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward-hover.svg"); }
+  .page-nav .next-hover {
+    background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_forward-hover.svg") !important; }
+  .page-nav .previous-hover {
+    background-image: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/arrow_backward-hover.svg") !important; }
   .page-nav a:hover h5 {
     color: #031B92 !important;
     text-decoration: none; }
   .page-nav a:hover {
     color: #031B92 !important;
-    text-decoration: none; }
-  .page-nav .next:hover {
-    color: #3452f4 !important;
     text-decoration: none; }
   .page-nav .search-icon-container .search-icon {
     width: 16px;
