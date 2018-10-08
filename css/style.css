@@ -399,7 +399,8 @@ section {
   margin-bottom: 4vw;
   margin-top: 3vw; }
   .logos .logo-block .col-lg-4 img {
-    max-width: 300px; }
+    max-width: 300px;
+    height: auto; }
   .logos .logo-block p {
     font-weight: 500;
     color: #121C4F;
