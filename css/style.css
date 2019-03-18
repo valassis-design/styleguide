@@ -95,7 +95,7 @@ section {
     background-size: 12px; }
 
 .dropdown-menu {
-  left: 30px;
+  /*left: 30px;*/
   width: 220px; }
   .dropdown-menu .dropdown-item {
     font-size: 13px;
