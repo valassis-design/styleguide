@@ -1,0 +1,44 @@
+/* colors */
+.navy {
+  background-color: #121C4F; }
+
+.poppy {
+  background-color: #FF4141; }
+
+.bright-blue {
+  background-color: #3452f4; }
+
+.text-navy-bg {
+  background-color: #031B92; }
+
+.pale-yellow {
+  background-color: #fed189; }
+
+.navy-text {
+  color: #121C4F; }
+
+.poppy-text {
+  color: #FF4141; }
+
+.bright-blue-text {
+  color: #3452f4; }
+
+.rect {
+  width: 100%;
+  min-height: 100px;
+  display: block;
+  cursor: initial;
+  letter-spacing: 0px; }
+
+.color-type {
+  margin-left: 8.3%;
+  margin-top: 34px; }
+  .color-type span {
+    font-family: "proxima-nova", sans-serif;
+    opacity: .7;
+    color: #121C4F;
+    font-size: 11px; }
+  .color-type p {
+    color: #121C4F;
+    font-size: 18px;
+    font-weight: 500; }
