@@ -256,7 +256,7 @@ section {
   vertical-align: -webkit-baseline-middle;
   text-transform: uppercase; }
 
-.export-tool img {
+.export-tool img#fromcanvas {
   display: none; }
 
 #svgPreview {
