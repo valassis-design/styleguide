@@ -1,3 +1,9 @@
+@import 'variables';
+
+::selection {
+	background: $pale-yellow;
+}
+
 html {
 	font-family: $body-text;
 	letter-spacing: .2px;
@@ -98,6 +104,38 @@ section {
 		opacity: 1;
 		background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon-hover.png") $poppy no-repeat;
 		background-size: 12px;
+	}
+}
+
+.red-btn-export {
+	color: $poppy;
+	font-family: $body-text;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	line-height: 16px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid $poppy;
+	border-radius: 3px;
+	padding: 5px 9px;
+	width: max-content;
+	//padding-right: 25px;
+	margin-left: 5vw;
+	margin-top: 5px;
+	text-decoration: none;
+	opacity: 1;
+	// background-position: 94% 45% !important;
+	// background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon.png") no-repeat;
+	// background-size: 12px;
+
+	&:hover {
+		color: #ffffff;
+		background-color: $poppy;
+		text-decoration: none;
+		opacity: 1;
+		// background: url("https://s3.amazonaws.com/valassis-digital-2018/styleguide/dl-icon-hover.png") $poppy no-repeat;
+		// background-size: 12px;
 	}
 }
 
@@ -324,6 +362,24 @@ section {
 	vertical-align: -webkit-baseline-middle;
 	text-transform: uppercase;
 }
+
+// Logo exporter tool
+
+.export-tool {
+	img {
+		display: none;
+	}
+
+}
+
+#svgPreview {
+	overflow: auto;
+}
+
+.hidden {
+	display: none !important;
+}
+
 
 
 

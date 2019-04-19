@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114184979-6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114184979-6');
+</script>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+	<title>Valassis Digital Style Guide</title>
+
+	<!-- CSS  -->
+	<link rel="stylesheet" href="https://use.typekit.net/sft0puy.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="cover-bg export-tool">
+	<nav class="navbar navbar-expand-md fixed-top navbar-light">
+		<div class="container">
+				<div class="navbar-brand"><a id="logo-container" href="https://valassisdigital.com" class="left"><img src="https://s3.amazonaws.com/valassis-digital-2018/wp-content/uploads/sites/19/2018/06/header-logo.jpeg" width="140" height="32" alt="Logo"></a><span
+				 class="logo-text">Brand Style Guide</span></div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="logo.html"> Logo</a></li>
+					<li class="nav-item"><a class="nav-link" href="colors.html">Colors</a></li>
+					<li class="nav-item"><a class="nav-link" href="typography.html">Typography</a></li>
+					<li class="nav-item"><a class="nav-link" href="imagery.html">Imagery</a></li>
+					<li class="nav-item"><a class="nav-link" href="iconography.html">Iconography</a></li>
+				</ul>
+				<div class="dropdown show">
+					<a class="btn red-btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+					 aria-haspopup="true" aria-expanded="false">
+						Download Assets
+					</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.dropbox.com/s/dnzq2xf9hapq3mg/Brand-Style-Guide_V1.pdf?dl=0">PDF Style
+							Guide</a>
+						<a class="dropdown-item" href="https://www.dropbox.com/s/3nkjzk0eommly7r/logos.zip?dl=0">Logos</a>
+						<a class="dropdown-item" href="http://myvalassis/Sales%20%20Marketing/dm/coreproductsinternal/Main%20-%20Master-Template.pptx">Valassis Digital PPT Template</a>
+						<a class="dropdown-item" href="http://myvalassis/Sales%20%20Marketing/dm/coreproductsinternal/Unified%20-%20Master%20Template.pptx">Valassis Unified PPT Template</a>
+						<a class="dropdown-item" href="https://www.dropbox.com/s/eidve53enwvykmh/PPT%20Icons.zip?dl=0">PowerPoint Icons</a>
+						<a class="dropdown-item" href="http://myvalassis/Sales%20%20Marketing/dm/coreproductsinternal/Forms/AllItems.aspx?RootFolder=%2FSales%20%20Marketing%2Fdm%2Fcoreproductsinternal%2FBrand%20Assets%20%2D%20Letterhead&FolderCTID=0x01200015E196ECBBAFB547BA4977F6C96E6939&View={0F0E0AEF-9862-49D0-81C7-2AFED291B706}&InitialTabId=Ribbon%2EDocument&VisibilityContext=WSSTabPersistence">Letterhead</a>
+						<!--<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Download
+							All</a>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="hero hero-home no-pad-bot" id="index-banner">
+		<div class="container">
+			<h1 class="header">Logo Export Tool</h1>
+			<p>Export Valassis and Valassis Digital logo variants at the size best suited to your needs.</p>
+		</div>
+	</section>
+
+	<div class="container overview">
+		<div class="row">
+			<div class="col-md-3">
+				<form id="svgForm">
+					<div class="form-group">
+						<label for="logoOption">Select a Logo Color</label>
+						<select name="logoOption" id="logoOption" class="custom-select" autofocus>
+							<option value="--">--</option>
+							<optgroup label="Valassis">
+								<option value="ValassisNavy">Valassis - Navy</option>
+								<option value="ValassisWhite">Valassis - White</option>
+							</optgroup>
+							<optgroup label="Valassis Digital">
+								<option value="ValassisDigitalNavy">Valassis Digital - Navy</option>
+								<option value="ValassisDigitalWhite">Valassis Digital - White</option>
+							</optgroup>
+						</select>
+					</div>
+					<div class="form-group sizing hidden">
+						<label for="logoWidth">Logo Width
+						<div class="input-group">
+							<input type="number" name="logoWidth" id="logoWidth" class="form-control form-control-sm" value="300" min="90">
+							<div class="input-group-append">
+							  <span class="input-group-text">px</span>
+							</div>
+						  </div>
+						</label>
+					</div>
+					<!-- <div class="btn red-btn ml-0 sizing hidden" id="exportLogo" onclick="playGround();exportResizedSvg();">Generate</div> -->
+				</form>
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+					<span>Preview</span>
+				</div>
+				<div class="row">
+					<div class="jumbotron col-sm-12">
+						<div id="svgPreview"></div>
+					</div>
+				</div>
+				<div id="download_wrapper" class="row hidden">
+
+						<a href="data:" id="data" download="svg" class="btn btn-sm btn-primary-outline" target="_blank">Download PNG</a>
+						<img src="" id="fromcanvas">
+				</div>
+				<div id="download_warning" class="row hidden">
+					<span>Brand guidelines do not allow use of logos smaller than 90px wide.</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="page-nav-divider">
+		<div class="container">
+			<div class="row page-nav">
+				<div class="text-left mr-auto previous">
+					<a href="logo.html">
+						<div class="icon arrow-backward float-left"></div>
+						<p>Previous</p>
+						<h5>Logo</h5>
+					</a>
+				</div>
+				<div class="text-right next browser-default ml-auto">
+					<a href="colors.html">
+						<div class="icon arrow-forward float-right"></div>
+						<p>Next</p>
+						<h5>Colors</h5>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer navy">
+		<div class="footer-copyright">
+			<div class="container">
+				<a class="brand-logo" href="https://ValassisDigital.com"><img src="https://s3.amazonaws.com/valassis-digital-2018/styleguide/footer-logo.jpg"
+					 alt="Logo"></a>
+				<div class="float-right">© <script>document.write(new Date().getFullYear())</script> Valassis Digital. All rights reserved.</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/svg_todataurl.js"></script>
+	<script src="js/exporter.js"></script>
+</body>
+
+</html>
