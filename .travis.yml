@@ -6,8 +6,11 @@ branches:
   only:
     - master
 
-script:
+before_install:
   - npm install -g gulp
+
+script:
+  - npm install
 
 cache:
   directories:
