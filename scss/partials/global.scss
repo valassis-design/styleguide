@@ -283,7 +283,8 @@ section {
 
 	.navbar-brand {
 		img {
-			width: 140px;
+			width: 95px;
+			margin-top:-10px;
 		}
 	}
 }
@@ -295,7 +296,7 @@ section {
 		}
 
 		.nav-link {
-			color: $text-navy;
+			color: $navy;
 			padding-left: 0.8rem;
 			padding-right: 0.8rem;
 			font-size: 14px;
@@ -440,6 +441,10 @@ section {
 	font-weight: 500;
 }
 
+.goodBad {
+	margin-top:20px;
+}
+
 
 
 
@@ -462,7 +467,7 @@ section {
 	color: #ffffff;
 
 	img {
-		width: 140px;
+		width: 90px;
 	}
 }
 

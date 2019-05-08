@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "node"
+
+branches:
+  only:
+    - master
+
+before_install:
+  - npm install -g gulp
+
+script:
+  - npm install
+
+cache:
+  directories:
+    - node_modules
+
+deploy:
+  provider: surge
+  project: ./
+  domain: dev-valassis-design.surge.sh
