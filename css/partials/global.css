@@ -208,8 +208,7 @@ section {
 .navbar {
   background-color: #ffffff; }
   .navbar .navbar-brand img {
-    width: 95px;
-    margin-top: -10px; }
+    width: 95px; }
 
 .navbar-light .navbar-nav .nav-item {
   padding-top: 5px; }
