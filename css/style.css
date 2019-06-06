@@ -121,8 +121,7 @@ section {
     background-size: 12px; }
 
 .dropdown-menu {
-  /*left: 30px;*/
-  width: 220px; }
+  width: 235px; }
   .dropdown-menu .dropdown-item {
     font-size: 13px;
     display: inline-block;
@@ -323,17 +322,21 @@ section {
   opacity: 0.8;
   font-weight: 100;
   color: #ffffff; }
+  .footer-copyright .back {
+    color: #ffffff;
+    opacity: 0.7;
+    margin-right: 35px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 10px; }
   .footer-copyright img {
     width: 90px; }
-
-@media only screen and (min-width: 768px) {
-  .footer-copyright .float-right {
-    padding-top: 15px; } }
 
 @media only screen and (max-width: 767px) {
   .footer-copyright .brand-logo img {
     margin-top: -25px;
-    height: 70px; } }
+    height: 70px; }
+  .footer-copyright .float-right {
+    padding-top: 10px; } }
 
 .cover-bg {
   display: flex;
@@ -341,7 +344,7 @@ section {
   min-height: 100vh; }
 
 .hero {
-  padding: 13vh 0; }
+  padding: 14vh 0 11vh; }
   .hero h1 {
     color: #121C4F;
     font-family: "din-2014-narrow", sans-serif;
@@ -436,6 +439,15 @@ section {
   color: #121C4F;
   font-style: italic;
   padding: 1vw 0; }
+
+.logos .old-logo {
+  background-color: #F8F8F9;
+  padding: 75px;
+  margin: 50px 0px; }
+  .logos .old-logo p {
+    margin-top: 10px; }
+  .logos .old-logo .goodBad {
+    margin-top: 0px; }
 
 .logos .logo-block {
   margin-bottom: 5vw;
