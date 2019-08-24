@@ -1,0 +1,274 @@
+<!-- typography.njk -->
+{% set title = ' – Typography' %}
+{% set activePage = 'typography' %}
+{% extends "templates/layout.njk" %}
+
+{% block content %}
+
+    {% include 'templates/partials/header.njk' %}
+
+    <section class="hero hero-page no-pad-bot" id="index-banner">
+    <div class="container">
+      <h1 class="header">Typography</h1>
+      <p>Our typefaces are used for our website and print collateral, as well as in our product user interface (UI).
+        Typography that is ideal for web may not present well for UI or print, etc. Below are recommendations for font
+        choices by use case.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <section>
+      <h4>Typefaces</h4>
+      <div class="type-block">
+        <div class="row">
+          <div class="col col-12 col-md-2">
+            <h2 class="proxima">Aa</h2>
+            <h5 class="proxima">Proxima Nova</h5>
+          </div>
+          <div class="col col-12 col-md-10">
+            <p>Used on body copy, as well as our website UI elements such as buttons and links.</p>
+          </div>
+          <div class="col col-12 offset-md-2 col-md-4">
+            <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+              abcdefghijklmnopqrstuvwxyz<br />
+              1234567890<br />
+              (.,:;?!@#$%&*)</p>
+          </div>
+          <div class="col col-12 col-md-4">
+            <p>Regular</p>
+            <p style="font-weight:600;">Semibold</p>
+            <p style="font-weight:800;"><strong>Bold</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="type-block">
+        <div class="row">
+          <div class="col col-12 col-md-2">
+            <h2 class="din">Aa</h2>
+            <h5 class="din">DIN 2014</h5>
+          </div>
+          <div class="col col-12 col-md-10">
+            <p>Generally used in headers, as well as some instances of body copy.</p>
+          </div>
+          <div class="col col-12 offset-md-2 col-md-4 din">
+            <p class="din">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+              abcdefghijklmnopqrstuvwxyz<br />
+              1234567890<br />
+              (.,:;?!@#$%&*)</p>
+          </div>
+          <div class="col col-12 col-md-4">
+            <p class="light din">Light</p>
+            <p clas="din">Regular</p>
+            <p class="din" style="font-weight:600;">Demi</p>
+            <p class="din" style="font-weight:800;"><strong>Bold</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="type-block">
+        <div class="row">
+          <div class="col col-12 col-md-2">
+            <h2 class="din-narrow">Aa</h2>
+            <h5 class="din-narrow">DIN 2014 Narrow</h5>
+          </div>
+          <div class="col col-12 col-md-10">
+            <p class="p75">Used in headers, primarily in all caps. The all caps treatment of this font gives a tech and
+              future/modern
+              feel. We use a generous letter spacing (kerning) to give an airy/breathable feel to the type. It is also
+              used in
+              titles where a more economical font is needed. For example, titles in the Latest section of the website.
+            </p>
+          </div>
+          <div class="col col-12 offset-md-2 col-md-4 din">
+            <p class="din-narrow">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+              abcdefghijklmnopqrstuvwxyz<br />
+              1234567890<br />
+              (.,:;?!@#$%&*)</p>
+          </div>
+          <div class="col col-12 col-md-4">
+            <p class="light din-narrow">Light</p>
+            <p clas="din-narrow">Regular</p>
+            <p class="din-narrow" style="font-weight:600;">Demi</p>
+            <p class="din-narrow" style="font-weight:800;"><strong>Bold</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="row minus70">
+        <div class="col col-md-9">
+          <p><span style="font-weight:800;">Note:</span> Separate guidelines exist for Microsoft products on PC (i.e.
+            both PowerPoint and letterhead files use the font Arial). For PowerPoint typography guidelines, refer to the
+            Guidelines PPT Template available under the downloadable assets dropdown.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="tints">
+      <h4>Type Color and Weight</h4>
+      <p class="p75">While headers and titles may consist of various color treatments, body copy should always remain
+        neutral. For
+        body copy use full color or 10-50% tints of Navy, avoiding tints above 50% to maintain the text’s legibility.
+      </p>
+
+      <p class="p75">Body copy should never be solid black to avoid harsh contrast. This does not apply to text paired
+        with a
+        background color other than white. If the use of gray is necessary, these specified tints of Navy below are
+        acceptable as grays.</p>
+      <div class="row">
+        <div class="col col-12 col-lg-7">
+          <p class="tint-height">Acceptable tints for body type color: 0-50%</p>
+          <img src="img/tint-do.svg" class="img-fluid">
+          <div class="goodBad"><img src="img/gud.png" alt="datsgood" /><span class="good"> Do</span></div>
+          <h5>GET A COMPLETE CONSUMER VIEW</h5>
+          <p class="tinted-do">Know the neighborhoods where people live, what stores they frequent, and the difference
+            between someone interested in running shoes, running for office, or running a small business.</p>
+          <p class="bright-blue-text demi">
+            &#60; 50%</p>
+        </div>
+        <div class="col col-12 col-lg-5">
+          <p>Unacceptable tints for body type color: 60-90%</p>
+          <img src="img/tint-dont.svg" class="img-fluid">
+          <div class="goodBad"><img src="img/bad.png" alt="datsbad" /><span class="bad"> Don't</span></div>
+          <div class="tinted-dont-container">
+            <h5>GET A COMPLETE CONSUMER VIEW</h5>
+            <p class="tinted-dont">Know the neighborhoods where people live, what stores they frequent, and the
+              difference
+              between someone interested in running shoes, running for office, or running a small business.</p>
+          </div>
+          <p class="poppy-text demi"> > 60%</p>
+
+        </div>
+    </section>
+
+    <section class="print">
+      <h4>Type Treatment for Print</h4>
+      <p class="p75">This is an example of type hierarchy and treatment used on a one sheeter, a PDF document for print.
+        Refer to it for a general idea of type treatment rather than definite rules.</p>
+      <div class="row treatment-chart">
+        <div class="col col-12 col-lg-7">
+          <img src="img/type-print-export@2x.png" alt="type treatment for print graphic" class="img-fluid">
+        </div>
+        <div class="col col-12 col-lg-5 numbers">
+          <ol>
+            <li data-prefix="1">
+              <div class="list-content"><span class="demi">Section Label</span><br />
+                DIN 2014 Narrow, Regular - 11pt, all caps, 75em spacing</div>
+            </li>
+            <li data-prefix="2">
+              <div class="list-content"><span class="demi">Headline</span><br />
+                DIN 2014 Narrow, Regular - 24pt, all caps</div>
+            </li>
+            <li data-prefix="3">
+              <div class="list-content"><span class="demi">Subhead</span><br />
+                Proxima Nova, Regular - 12pt</div>
+            </li>
+            <li data-prefix="4">
+              <div class="list-content"><span class="demi">Body Copy</span><br />
+                Proxima Nova, Regular - 10pt</div>
+            </li>
+            <li data-prefix="5">
+              <div class="list-content"><span class="demi">Bullet Highlight</span><br />
+                Proxima Nova, Bold - 10pt, Bright Blue #3452F4<br />
+                <em>(print version of Bright Blue differs from digital version for legibility)</em></div>
+            </li>
+            <li data-prefix="6">
+              <div class="list-content"><span class="demi">Ordered List</span><br />
+                DIN 2014 Narrow, Bold - 35pt, 75em spacing, Poppy #FF4141</div>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <h4>Type Treatment for Web</h4>
+      <p class="p75">This is an example of type hierarchy and treatment used throughout the website. Refer to it for a
+        general idea of type treatment rather than definite rules.</p>
+      <div class="row treatment-chart">
+        <div class="col col-12 col-lg-7">
+          <img src="img/type-web-export@2x.png" alt="type treatment for print graphic" class="img-fluid">
+        </div>
+        <div class="col col-12 col-lg-5 numbers">
+          <ol>
+            <li data-prefix="1">
+              <div class="list-content"><span class="demi">Title or Phrase with Emphasis</span><br />
+                DIN 2014 Narrow, Light - 50pt, all caps, 15px spacing<br />
+                DIN 2014 Narrow, Demi - 50pt, all caps, 15px spacing</div>
+            </li>
+            <li data-prefix="2">
+              <div class="list-content"><span class="demi">Headline</span><br />
+                DIN 2014 Narrow, Regular - 40pt, 50pt line height, sentence case, 1px spacing</div>
+            </li>
+            <li data-prefix="3">
+              <div class="list-content"><span class="demi">Bold Stats</span><br />
+                Demi bold numbers paired with light symbols or abbreviations for contrast. The number should always been
+                no
+                less than 11pt smaller than its paired number.
+                <ul class="second-level-list">
+                  <li>
+                    <span class="demi">Numbers</span><br />
+                    DIN 2014 Narrow, Demi - 100pt, 2.75px spacing
+                  </li>
+                  <li>
+                    <span class="demi">Symbols and Letters</span><br />
+                    DIN 2014 Narrow, Light - 89pt, all caps
+                  </li>
+                  <li>
+                    <span class="demi">Stat Descriptor</span><br />
+                    DIN 2014, Regular - 15pt, all caps, 2x spacing
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li data-prefix="4">
+              <div class="list-content"><span class="demi">“Whisper Shout” Accent Text</span><br />
+                For use behind text as subtle layering effect
+                DIN 2014, Bold - 60pt, all caps, 3px spacing</div>
+            </li>
+            <li data-prefix="5">
+              <div class="list-content"><span class="demi">Section Labels</span><br />
+                DIN 2014 Narrow, Regular - 18pt, all caps, 3px spacing</div>
+            </li>
+
+            <li data-prefix="6">
+              <div class="list-content"><span class="demi">Header</span><br />
+                DIN 2014 Narrow, Regular - 36pt, 45pt line height, all caps, 1px spacing</div>
+            </li>
+            <li data-prefix="7">
+              <div class="list-content"><span class="demi">Body Copy</span><br />
+                Proxima Nova, Regular - 18pt</div>
+            </li>
+            <li data-prefix="8">
+              <div class="list-content"><span class="demi">CTA Button</span><br />
+                <span class="demi sixteen">Outlined Button</span><br />
+                Proxima Nova, Medium - 14pt, sentence caps, .54px spacing<br /><br />
+                <span class="demi sixteen">Solid Button</span><br />
+                Proxima Nova, Semibold - 14pt, sentence caps, .54px spacing
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-nav-divider">
+    <div class="container">
+      <div class="row page-nav">
+        <div class="text-left mr-auto previous">
+          <a href="colors.html">
+            <div class="icon arrow-backward float-left"></div>
+            <p>Previous</p>
+            <h5>Colors</h5>
+          </a>
+        </div>
+        <div class="text-right ml-auto next browser-default">
+          <a href="imagery.html">
+            <div class="icon arrow-forward float-right"></div>
+            <p>Next</p>
+            <h5>Imagery</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
