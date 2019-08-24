@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-light">
+    <div class="container">
+        <div class="navbar-brand"><a id="logo-container" href="index.html" class="left"><img
+            src="img/logos/Valassis-Logo_Navy.svg" height="32" alt="Logo"></a><span class="logo-text">Brand Style
+            Guide</span></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link {%if activePage == 'logos' %} active {% endif %}" href="logo.html"> Logo</a></li>
+            <li class="nav-item"><a class="nav-link {%if activePage == 'colors' %} active {% endif %}" href="colors.html">Colors</a></li>
+            <li class="nav-item"><a class="nav-link {%if activePage == 'typography' %} active {% endif %}" href="typography.html">Typography</a></li>
+            <li class="nav-item"><a class="nav-link {%if activePage == 'imagery' %} active {% endif %}" href="imagery.html">Imagery</a></li>
+            <li class="nav-item"><a class="nav-link {%if activePage == 'iconography' %} active {% endif %}" href="iconography.html">Iconography</a></li>
+        </ul>
+        <div class="dropdown show">
+            <a class="btn red-btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Download Assets
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="https://www.dropbox.com/s/bn3nz9j06y0gv6f/logos.zip?dl=0">Logos</a>
+            <a class="dropdown-item"
+                href="http://myvalassis/Sales%20%20Marketing/brandcenter/Document%20Library/Valassis-PowerPoint-Guidelines.pptx">Valassis
+                PowerPoint Guidelines</a>
+            <a class="dropdown-item"
+                href="http://myvalassis/Sales%20%20Marketing/brandcenter/Document%20Library/Valassis-Master-Template.pptx">Valassis
+                PPT Template</a>
+            <a class="dropdown-item"
+                href="http://myvalassis/Sales%20%20Marketing/brandcenter/Document%20Library/Valassis%20Digital%20-%20Master%20Template.pptx">Valassis
+                Digital PPT Template</a>
+            <a class="dropdown-item"
+                href="http://myvalassis/Sales%20%20Marketing/brandcenter/Document%20Library/Valassis-spreadsheet_template.xlsx">Excel
+                Template</a>
+            <a class="dropdown-item"
+                href="http://myvalassis/Sales%20%20Marketing/brandcenter/Document%20Library/Valassis-and-Valassis-Digital-Letterhead.zip">Letterhead</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</nav>

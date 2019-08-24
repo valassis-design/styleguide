@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 48"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>Direction</title><g id="Layer_2" data-name="Layer 2"><g id="Icons"><g id="Location"><path id="Direction" class="cls-1" d="M18,0,0,48,18,36.33,36,48ZM3.92,43.33,18,5.62,32.08,43.33,18,34Z"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 48"><path d="M18 0L0 48l18-11.67L36 48zM3.92 43.33L18 5.62l14.08 37.71L18 34z" fill="#231f20" data-name="Layer 2"/></svg>

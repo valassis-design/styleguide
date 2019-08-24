@@ -1,0 +1,117 @@
+<!-- colors.njk -->
+{% set title = ' – Colors' %}
+{% set activePage = 'colors' %}
+{% extends "templates/layout.njk" %}
+
+{% block content %}
+
+    {% include 'templates/partials/header.njk' %}
+
+    <section class="hero hero-page no-pad-bot" id="index-banner">
+    <div class="container">
+      <h1 class="header">Colors</h1>
+      <p>The Valassis and Valassis Digital color palette consists of three primary colors and two secondary
+        colors. Our primary colors should be used by default, while secondary colors should serve as supporting colors.
+      </p>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <section>
+      <h4>Primary Colors</h4>
+      <div class="row color-block">
+        <div class="col col-12 col-sm-4">
+          <div class="rect navy">
+          </div>
+          <div class="color-type">
+            <h5>Dark Navy</h5>
+            <span>HEX</span>
+            <p>#121C4F</p>
+            <span>RGB</span>
+            <p>18 / 28 / 79</p>
+            <span>CMYK</span>
+            <p>100 / 96 / 36 / 38</p>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-4">
+          <div class="rect poppy">
+          </div>
+          <div class="color-type">
+            <h5>Poppy</h5>
+            <span>HEX</span>
+            <p>#FF4141</p>
+            <span>RGB</span>
+            <p>255 / 65 / 65</p>
+            <span>CMYK</span>
+            <p>0 / 88 / 74 / 0</p>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-4">
+          <div class="rect bright-blue">
+          </div>
+          <div class="color-type">
+            <h5>Bright Blue</h5>
+            <span>HEX</span>
+            <p>#3452F4</p>
+            <span>RGB</span>
+            <p>52 / 82 / 244</p>
+            <span>CMYK</span>
+            <p>87 / 55 / 0 / 0</p>
+          </div>
+        </div>
+      </div>
+
+      <h4>Secondary Colors</h4>
+      <div class="row color-block">
+        <div class="col col-12 col-sm-4">
+          <div class="rect text-navy-bg">
+          </div>
+          <div class="color-type">
+            <h5>Text Navy</h5>
+            <span>HEX</span>
+            <p>#031B92</p>
+            <span>RGB</span>
+            <p>3 / 27 / 146</p>
+            <span>CMYK</span>
+            <p>100 / 96 / 10 / 5</p>
+          </div>
+        </div>
+        <div class="col col-12 col-sm-4">
+          <div class="rect pale-yellow">
+          </div>
+          <div class="color-type">
+            <h5>Pale Yellow</h5>
+            <span>HEX</span>
+            <p>#FED189</p>
+            <span>RGB</span>
+            <p>254 / 209 / 137</p>
+            <span>CMYK</span>
+            <p>0 / 19 / 52 / 0</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-nav-divider">
+    <div class="container">
+      <div class="row page-nav">
+        <div class="text-left mr-auto previous">
+          <a href="logo.html">
+            <div class="icon arrow-backward float-left"></div>
+            <p>Previous</p>
+            <h5>Logo</h5>
+          </a>
+        </div>
+        <div class="text-right ml-auto next browser-default">
+          <a href="typography.html">
+            <div class="icon arrow-forward float-right"></div>
+            <p>Next</p>
+            <h5>Typography</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
