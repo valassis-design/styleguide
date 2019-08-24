@@ -1,0 +1,38 @@
+<!-- layout.nunjucks -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114184979-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114184979-6');
+    </script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Valassis and Valassis Digital Style Guide{{ title }}</title>
+    <link rel="stylesheet" href="https://use.typekit.net/sft0puy.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel='icon shortcut' href='favicon.ico' type='image/x-icon'/>
+  </head>
+  <body class="cover-bg {{activePage}}">
+
+    <!-- header -->
+  
+    <!-- content -->
+    {% block content %} {% endblock %}
+
+    <!-- footer -->
+    {% include 'templates/partials/footer.njk' %}
+    <!-- scripts -->
+    {% include 'templates/partials/scripts.njk' %}
+    
+  </body>
+</html>

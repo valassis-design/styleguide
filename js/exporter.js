@@ -52,7 +52,7 @@ fileSelect.addEventListener("change", function(){
 	var fileSvg = fileSelect.selectedIndex;
 	var fileSrc;
 
-	// WAGWAG WIT DE FILES MI BREDREN?
+	// WAGWAN WIT DE FILES MI BREDREN?
 	console.log(fileSvg);
 
 	switch (fileSvg) {
