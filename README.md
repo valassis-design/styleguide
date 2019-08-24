@@ -28,5 +28,7 @@ Now you're ready to develop.
 
 Please note that HTML files should not be edited directly in this project. Nunjucks templates are used to make the code more modular and easier to maintain. These templates can be found in the `pages` and `templates` folders within the project. These templates are automatically compiled into the final HTML as part of the development and build processes.
 
+When you've gotten to a good stopping point, and you want to deploy, you'll need to quit the dev server by pressing `Control+C` in the Terminal window. Once stopped, you'll want to run `yarn run build`, which will fully compile all SCSS and Nunjucks files, as well as minifying any images you may have included.
+
 Closing the VS Code window will terminate the connection to the container and suspend it.
 

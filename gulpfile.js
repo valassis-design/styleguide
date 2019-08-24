@@ -9,7 +9,8 @@ var nunjucksRender = require('gulp-nunjucks-render');
 var paths = {
 	scss: {
 		// By using styles/**/*.sass we're telling gulp to check all folders for any sass file
-		src: "scss/**/*",
+		watch: "scss/**/*",
+		src: "scss/style.scss",
 		// Compiled files will end up in whichever folder it's found in (partials are not compiled)
 		dest: "css"
 	},
@@ -20,6 +21,10 @@ var paths = {
 		src: "pages/**/*",
 		watch: ["pages/**/*", "templates/**/*"],
 		dest: "./"
+	},
+	img: {
+		src: "img/**/*",
+		dest: "img/**/*"
 	}
 	// TODO:
 	// Add js watch + build
@@ -37,6 +42,15 @@ function nunjucks() {
     .pipe(gulp.dest(paths.njk.dest))
 }
 exports.nunjucks = nunjucks;
+
+function minifyimages() {
+	return (
+		gulp.src('img/**/*')
+		.pipe(minifyImg({verbose: true}))
+		.pipe(gulp.dest(paths.img.dest))
+	);
+}
+exports.minifyimages = minifyimages;
 
 // Define tasks after requiring dependencies
 function scss() {
@@ -72,9 +86,9 @@ function server(){
 	nunjucks();
 	// gulp.watch takes in the location of the files to watch for changes
 	// and the name of the function we want to run on change
-	gulp.watch(paths.scss.src, scss)
+	gulp.watch(paths.scss.watch, scss)
   	gulp.watch(paths.html.src, reload)
-  	gulp.watch(paths.njk.watch, nunjucks)
+	gulp.watch(paths.njk.watch, nunjucks)
 }
 
 // Don't forget to expose the task!
@@ -82,3 +96,4 @@ exports.server = server;
 
 
 gulp.task('default', gulp.parallel(server));
+gulp.task('build', gulp.parallel([scss,nunjucks,minifyimages]))
