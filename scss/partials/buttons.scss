@@ -1,0 +1,11 @@
+.btn-primary-outline {
+    border: 1px solid $bright-blue;
+    color: $bright-blue;
+    font-weight: 500;
+
+    &:hover,
+    &:active {
+        border-color: darken($bright-blue, 40%);
+        color: darken($bright-blue, 40%)
+    }
+}
