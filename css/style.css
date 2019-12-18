@@ -669,3 +669,11 @@ section {
     -ms-flex: 10%;
     flex: 10%;
     max-width: 10%; } }
+
+.btn-primary-outline {
+  border: 1px solid #3452f4;
+  color: #3452f4;
+  font-weight: 500; }
+  .btn-primary-outline:hover, .btn-primary-outline:active {
+    border-color: #051257;
+    color: #051257; }
