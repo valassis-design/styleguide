@@ -31,4 +31,3 @@ Please note that HTML files should not be edited directly in this project. Nunju
 When you've gotten to a good stopping point, and you want to deploy, you'll need to quit the dev server by pressing `Control+C` in the Terminal window. Once stopped, you'll want to run `yarn run build`, which will fully compile all SCSS and Nunjucks files, as well as minifying any images you may have included.
 
 Closing the VS Code window will terminate the connection to the container and suspend it.
-
